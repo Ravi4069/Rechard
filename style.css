@@ -1,0 +1,1052 @@
+@font-face {
+    font-family: "Canela Light Trial";
+    src: url(./Canela-Light-Trial.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Canela Light Trial";
+    
+
+
+}
+body{
+    background-color: #F5F3F0;
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    /* background-color: green; */
+    display: flex;
+    position: relative;
+}
+#roll{
+    position: absolute;
+    font-size: 1vw;
+    z-index: 2;
+    height: 12%;
+    width: 100%;
+    /* background-color: aliceblue; */
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    padding: 0 1vw;
+    overflow: hidden;
+}
+#roll h2{
+    white-space: nowrap;
+    padding: 0 1vw;
+    letter-spacing: 0.1vw;
+    font-size: 3vw;
+    font-weight: 200;
+    color: gray;
+    animation: move1 6000ms linear infinite;
+}
+@keyframes move1 {
+    0%{
+        transform: translate(0);
+    }
+    100%{
+        transform: translate(-100%);
+    }
+}
+
+#left{
+    height: 100%;
+    width: 50%;
+    background-color: #1B271F;
+    
+}
+#logo{
+    height: 8%;
+    width: 8%;
+    /* background-color: aliceblue; */
+    margin: 2vw;
+    
+}
+#logo img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+}
+#h-text{
+    height: 45%;
+    width: 100%;
+    /* background-color:rebeccapurple ; */
+    margin-top: 18%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#h-text h2{
+    font-size: 5vw;
+    font-weight: 100;
+    color: rgb(255, 255, 255);
+}
+#right{
+    height: 100%;
+    width: 50%;
+    /* background-color: rgb(197, 113, 113); */
+    
+
+}
+#v1{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+#p2-white-txt{
+    height: 80%;
+    width: 100%;
+    /* background-color:orange; */
+ 
+    padding: 10vw 19vw;
+    position: relative;
+}
+#p2-box1{
+    position: absolute;
+    height: 50%;
+    width: 60%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+
+}
+#p2-box2{
+    position: absolute;
+    top: 77%;
+    bottom: 0;
+    height: 13.9%;
+    width: 60%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: start;
+    justify-content: start;
+}
+#p2-box1 h3{
+    /* line-height: vw; */
+    font-size:3.5vw;
+    font-weight: 100;
+    color: #2b2e2c;
+    
+   
+}
+#p2-box2 img{
+    height: 100%;
+    width: 40%;
+    object-fit: cover;
+    object-position: center;
+}
+#page3{
+    
+        height: 120%;
+        width: 100%;
+        /* background-color: rgb(255, 170, 170); */
+        display: flex;
+        
+    
+    
+}
+#p3-peice1{
+    height: 115%;
+    width: 50%;
+    /* background-color: red; */
+    position: relative;
+}
+#v2{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#p3-peice2{
+    height: 50%;
+    width: 40%;
+    /* background-color: green; */
+    margin:5vw  6vw;
+    position: relative;
+    
+   
+}
+#p3-peice2 h2{
+    font-size: 2.4vw;
+    text-align: justify;
+    line-height: 3vw;
+    font-weight: 200;
+    color: #1B271F;
+    
+}
+#p3-peice3{
+    position: absolute;
+    height: 20%;
+    width: 100%;
+    /* background-color: rgb(255, 51, 0); */
+    top: 110%;
+    display: flex;
+    align-items: center;
+    
+}
+#p3-peice3 h2{
+    font-size: 1.5vw;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: #D29C61;
+    text-decoration: underline;
+}
+#p3-peice4{
+    position: absolute;
+    height: 120%;
+    width: 100%;
+    /* background-color: palegreen; */
+    top: 140%;
+    padding: 10%;
+    
+    background-image: url("https://cdn-cobgpd.nitrocdn.com/AZCPwEdiTxjDKpYIcjSbKVkentuQqADl/assets/images/optimized/rev-7729918/richardgeorge.uk/wp-content/uploads/2023/10/Richard-George-Tailoring2750-copy-scaled-e1706622694362.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    transition: ease-in 0.3s;
+   
+    z-index: 1;
+}
+
+
+
+#p4-box{
+    
+    height: 100%;
+    width: 100%;
+    /* background-color: yellowgreen; */
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+
+    
+}
+#p4-box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+    
+}
+#p3-ltxt{
+    position: absolute;
+    height: 40%;
+    width: 100%;
+    /* background-color: violet; */
+    top: 34%;
+    
+}
+#p3-peice4:hover{
+    padding: 0%;
+
+}
+
+
+#p3-piece5{
+        position: absolute;
+        height: 75%;
+        width: 120%;
+        /* background-color: royalblue; */
+        position: relative;
+        top: 200%;
+        right: 10%;
+        
+    
+}
+#p3-piece5 h2{
+    font-size: 3vw;
+    /* text-align: justify; */
+    line-height: 3vw;
+    font-weight: 200;
+    color: #1B271F;
+}
+#p3-piece6{
+    position: absolute;
+    height: 20%;
+    width: 100%;
+    /* background-color: rgb(255, 51, 0); */
+    top: 350%;
+    right: 10%;
+    display: flex;
+    align-items: center;
+}
+#p3-piece6 h2{
+    font-weight: 200;
+    color: #1B271F;
+}
+#p3-piece7{
+    position: absolute;
+    height: 20%;
+    width: 100%;
+    /* background-color: rgb(107, 38, 20); */
+    top: 375%;
+    right: 10%;
+    display: flex;
+    align-items: center;
+}
+#p3-piece7 h2{
+    font-size: 1.5vw;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: #D29C61;
+    text-decoration: underline;
+
+}
+#p3-right{
+    position: absolute;
+    height: 64%;
+    width: 80%;
+    /* background-color: goldenrod; */
+    top: 115%;
+    left: 15%;
+    padding: 10%;
+    background-image: url("https://cdn-cobgpd.nitrocdn.com/AZCPwEdiTxjDKpYIcjSbKVkentuQqADl/assets/images/optimized/rev-7729918/richardgeorge.uk/wp-content/uploads/2023/05/rg2-e1706622803138.jpg");
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: ease-in 0.3s;
+    
+
+}
+#p3-right:hover{
+    padding: 0%;
+}
+#p3-box{
+    height: 100%;
+    width: 100%;
+    /* background-color: yellowgreen; */
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+
+}
+#p3-box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#p3-rtxt{
+    position: absolute;
+    height: 40%;
+    width: 100%;
+    /* background-color: violet; */
+    top: 34%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#p3-rtxt h1{
+    font-size: 4vw;
+    font-weight: 100;
+    color: white;
+}
+#page4{
+    height: 140%;
+    width: 100%;
+    /* background-color: aqua; */
+}
+#page5{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(8, 10, 10);
+     position: relative;
+    
+}
+#v3{
+    
+    height: 100%;
+    
+    width: 100%;
+    object-fit: cover;
+   
+}
+#overlay{
+    height: 40%;
+    width: 50%;
+    position: absolute;
+    /* background-color: #D29C61; */
+    top: 29%;
+    left: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#oh4{
+    font-size: 3.5vw;
+    text-align: center;
+    font-weight: 100;
+   
+    line-height: 5.2vw;
+    color: #f5f3f0;
+    display: inline-block;
+    /* border: 1px solid #747370; */
+    /* -webkit-text-stroke: 0.3px #747370; */
+}
+#page6{
+    height: 30%;
+    width: 100%;
+    /* background-color: rgb(106, 138, 138); */
+}
+#jour{
+    height: 60%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    
+   
+    
+}
+#jour h1{
+    margin-left: 5vw;
+    font-size: 4vw;
+    font-weight: 200;
+    color:#1B271F ;
+}
+#jour2{
+    height: 40%;
+    width: 100%;
+    /* background-color: rgb(119, 68, 68); */
+    display: flex;
+    align-items: center;
+}
+#jour2 h2{
+    margin-left: 5vw;
+    font-size: 1.5vw;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: #D29C61;
+    text-decoration: underline;
+    
+}
+#page7{
+    height: 100%;
+    width: 100%;
+    /* background-color: yellow; */
+    /* padding: 2vw 0; */
+}
+#hova{
+    height: 100%;
+    width: 100%;
+    /* background-color: blue; */
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    
+
+}
+#hova::-webkit-scrollbar{
+    display: none;
+}
+.card{
+    
+        display: inline-block;
+        height: 100%;
+        width: 25%;
+        /* background-color: rgb(204, 179, 179); */
+        /* border: #1B271F 1px solid; */
+        margin-right: 1vw;
+        position: relative;
+   
+}
+.elem{
+    display: inline-block;
+    height: 78%;
+    width: 100%;
+    /* background-color: red; */
+    /* border: #1B271F 1px solid; */
+    margin-right: 1vw;
+    position: relative;
+}
+.elem img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+.elem .txtbox{
+    height:22%;
+    width: 100%;
+    /* background-color: aqua; */
+    position:absolute;
+    display: flex;
+    bottom: 0;
+    align-items: center;
+   
+}
+.card,.elem,.txtbox,h2{
+    color:#576059;
+    font-weight: 300;
+    
+}
+
+#page8{
+    height: 135%;
+    width: 100%;
+    /* background-color: palevioletred; */
+    position: relative;
+}
+#im1{
+    height: 24%;
+    width:12%;
+    background-color: rgb(98, 0, 255);
+    position: absolute;
+    top: 13%;
+    left: 4%;
+    background-image: url("assets/Screenshot-2023-10-04-at-11.38.33.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.2;
+    
+}
+#im2{
+    height: 24%;
+    width:12%;
+    background-color: rgb(223, 203, 255);
+    position: absolute;
+    bottom: 3%;
+    left: 4%;
+    background-image: url("assets/Screenshot-2023-10-23-at-14.11.11.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.2;
+    
+    
+}
+#im3{
+    height: 24%;
+    width:12%;
+    background-color: rgb(255, 230, 0);
+    position: absolute;
+    right: 10%;
+    top: 35%;
+    background-image: url("assets/imageStories3.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.2;
+}
+#im4{
+    height: 24%;
+    width:12%;
+    background-color: rgb(121, 105, 105);
+    position: absolute;
+    left: 39%;
+    top: 8%;
+    background-image: url("assets/Screenshot-2023-11-22-at-16.15.16\ \(1\).png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.2;
+}
+
+#im5{
+    height: 24%;
+    width:12%;
+    background-color: rgb(0, 255, 179);
+    position: absolute;
+    right: 7%;
+    bottom: 7%;
+    background-image: url("assets/imageStories4.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.2;
+}
+
+
+
+#overlay-p8{
+    height: 100%;
+    width: 100%;
+    background-color: #F5F3F0;
+    padding: 0.1%;
+    
+    
+}
+#client{
+    
+    height: 30%;
+    width: 100%;
+    /* background-color: violet; */
+    margin-top: 23%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+#client h1{
+    font-size: 10vw;
+    font-weight: 100;
+    color: #1B271F;
+}
+#client-txt{
+    height: 15%;
+    width: 100%;
+    /* background-color: orange; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#client-txt h4{
+    text-align: center;
+    font-size: 1.7vw;
+    color: #1B271F;
+    font-weight: 100;
+}
+#client-cs{
+    height: 8%;
+    width: 100%;
+    /* background-color: blue; */
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#client-cs h2{
+    
+    font-size: 1.5vw;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: #D29C61;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+#page9{
+    height: 100%;
+    width: 100%;
+    background-color: #1B271F;
+    padding: 2vw;
+}
+#p9-box{
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+}
+#pb-left{
+    height: 100%;
+    width: 50%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#pbl-img{
+    height: 100%;
+    width: 60%;
+    /* background-color: blue; */
+    border-radius: 300px;
+    overflow: hidden;
+    
+
+}
+#pbl-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+#pb-right{
+    height: 100%;
+    width: 50%;
+    /* background-color: rgb(3, 80, 0); */
+}
+#pbr-txt{
+    height: 70%;
+    width: 80%;
+    /* background-color: #576059; */
+    margin-top: 2vw;
+    margin-left: 4vw;
+    
+    display: flex;
+    align-items: center;
+    
+}
+#pbr-txt,h4{
+    font-weight: 100;
+    color: #F5F3F0;
+    font-size: 2.8vw;
+}
+#pbr-apt{
+    height: 10%;
+    width: 80%;
+    
+    margin-left: 4vw;
+    /* background-color: #D29C61; */
+
+}
+#pbr-apt h2{
+    font-size: 1.2vw;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    color: #ffffff;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+#foot{
+    height: 60%;
+    width: 100%;
+    background-color: #1B271F;
+    padding: 2.4vw 1.5vw;
+    position: relative;
+}
+#bimg{
+    position: absolute;
+    height: 5vw;
+    width: 5vw;
+    background-color: #1B271F;
+    bottom: 0%;
+    top: 0%;
+    z-index: 1;
+    right: 50%;
+    padding:.5vw;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: .4vw;
+}
+#bix{
+    height: 100%;
+    width: 100%;
+    background-color: #1B271F;
+    
+     background-image: url("https://cdn-cobgpd.nitrocdn.com/AZCPwEdiTxjDKpYIcjSbKVkentuQqADl/assets/images/optimized/rev-7729918/richardgeorge.uk/images/logo.svg");
+     /* background-position: center; */
+     background-size:cover;
+     /* background-repeat: no-repeat; */
+
+}
+#foot-box{
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+    padding: 0.1% 0;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+
+}
+#addres{
+    height: 40%;
+    width: 100%;
+    /* background-color: #f5f3f0; */
+    margin-top: 4vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+#addres a {
+    
+    text-decoration: none;
+    text-align: center;
+    
+}
+#addu{
+    color: #FFFFF1;
+}
+#phone{
+    height:10%;
+    width: 100%;
+    /* background-color: #D29C61; */
+    margin-top: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#phone{
+    height:10%;
+    width: 100%;
+    /* background-color: #D29C61; */
+    margin-top: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#phone a{
+    color: inherit;
+    text-decoration: none;
+    color: #ffffff;
+}
+#foot-email{
+    height:10%;
+    width: 100%;
+    /* background-color: #795937; */
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#foot-email a{
+    color: inherit;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+
+
+#page10{
+    height: 7%;
+    width: 100%;
+    background-color: #1B271F;
+    display: flex;
+    justify-content: space-between;
+    align-items:start;
+}
+.q{
+    padding: 0 1vw;
+    font-size: 1vw;
+}
+@font-face {
+    font-family: "Canela Light Trial";
+    src: url(./Canela-Light-Trial.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Canela Light Trial";
+}
+
+body {
+    background-color: #F5F3F0;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+#roll {
+    position: absolute;
+    font-size: 1vw;
+    z-index: 2;
+    height: 12%;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    padding: 0 1vw;
+    overflow: hidden;
+}
+
+#roll h2 {
+    white-space: nowrap;
+    padding: 0 1vw;
+    letter-spacing: 0.1vw;
+    font-size: 3vw;
+    font-weight: 200;
+    color: gray;
+    animation: move1 6000ms linear infinite;
+}
+
+@keyframes move1 {
+    0% {
+        transform: translate(0);
+    }
+    100% {
+        transform: translate(-100%);
+    }
+}
+
+#left {
+    height: 100%;
+    width: 50%;
+    background-color: #1B271F;
+}
+
+#logo {
+    height: 8%;
+    width: 8%;
+    margin: 2vw;
+}
+
+#logo img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+#h-text {
+    height: 45%;
+    width: 100%;
+    margin-top: 18%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#h-text h2 {
+    font-size: 5vw;
+    font-weight: 100;
+    color: rgb(255, 255, 255);
+}
+
+#right {
+    height: 100%;
+    width: 50%;
+}
+
+#v1 {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#p2-white-txt {
+    height: 80%;
+    width: 100%;
+    padding: 10vw 19vw;
+    position: relative;
+}
+
+#p2-box1 {
+    position: absolute;
+    height: 50%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+#p2-box2 {
+    position: absolute;
+    top: 77%;
+    bottom: 0;
+    height: 13.9%;
+    width: 60%;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+}
+
+#p2-box1 h3 {
+    font-size: 3.5vw;
+    font-weight: 100;
+    color: #2b2e2c;
+}
+
+#p2-box2 img {
+    height: 100%;
+    width: 40%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* Add additional responsive styles */
+@media (max-width: 1200px) {
+    #h-text h2 {
+        font-size: 4vw;
+    }
+    
+    #p2-white-txt {
+        padding: 10vw 10vw;
+    }
+}
+
+@media (max-width: 992px) {
+    #main {
+        flex-direction: column;
+    }
+    #left, #right {
+        width: 100%;
+        height: auto;
+    }
+    
+    #h-text h2 {
+        font-size: 5vw;
+    }
+    
+    #p2-box1 h3 {
+        font-size: 4vw;
+    }
+    
+    #roll h2 {
+        font-size: 2.5vw;
+    }
+}
+
+@media (max-width: 768px) {
+    #roll {
+        font-size: 0.8vw;
+    }
+
+    #h-text h2 {
+        font-size: 6vw;
+    }
+    
+    #p2-box1 h3 {
+        font-size: 3.5vw;
+    }
+    
+    #roll h2 {
+        font-size: 2.2vw;
+    }
+
+    #jour h1 {
+        font-size: 5vw;
+    }
+
+    #page6 {
+        height: auto;
+    }
+}
+
+@media (max-width: 576px) {
+    #roll {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #h-text h2 {
+        font-size: 7vw;
+    }
+    
+    #client h1 {
+        font-size: 8vw;
+    }
+    
+    .card {
+        width: 100%;
+    }
+    
+    #pb-left, #pb-right {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #pbr-txt {
+        font-size: 2.5vw;
+    }
+}
